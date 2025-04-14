@@ -1,13 +1,29 @@
-# React + Vite
+# CCNA Exam Simulator 🌐
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+محاكاة تفاعلية لاختبار CCNA (Cisco Certified Network Associate)، مبنية باستخدام React JS.  
+يساعد هذا التطبيق الطلاب والمبتدئين في الشبكات على التدرب من خلال أسئلة متعددة الخيارات، مع مؤقت زمني وواجهة سهلة الاستخدام.
 
-Currently, two official plugins are available:
+## 🎯 المميزات
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🧠 أسئلة محاكاة لاختبار CCNA مع خيارات متعددة.
+- ⏱️ عداد زمني لتجربة واقعية مشابهة للاختبار.
+- 📄 تقسيم الأسئلة على صفحات (10 أسئلة في كل صفحة).
+- 📊 حساب النتيجة وعرض الأداء بعد التسليم.
+- 🎨 تصميم بسيط ومتجاوب باستخدام CSS / Tailwind.
+- ✅ تنبيه في حال عدم حل جميع الأسئلة قبل التسليم.
 
-## Expanding the ESLint configuration
+## 🧪 تقنيات مستخدمة
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# CCNA_EXAM
+- [React JS](https://reactjs.org)
+- JavaScript (ES6+)
+- HTML5 & CSS3
+- Vite (لتطوير سريع)
+- Git & GitHub
+
+## 📦 التثبيت المحلي
+
+```bash
+git clone https://github.com/h1ok/CCNA_EXAM.git
+cd CCNA_EXAM
+npm install
+npm run dev
