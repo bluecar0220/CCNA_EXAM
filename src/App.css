@@ -1,0 +1,78 @@
+/* لتوسيط جميع الصفحات */
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6f0ff;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+
+.option-label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+/* النموذج في صفحة البداية */
+.start-form {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  max-width: 320px;
+}
+
+.start-form input,
+.start-form button {
+  padding: 0.6rem;
+  font-size: 1rem;
+}
+
+/* مربع الاختبار */
+.quiz-container {
+  width: 100%;
+  max-width: 720px;
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+/* سؤال وخياراته */
+.question-block {
+  margin-bottom: 1.5rem;
+}
+
+/* خيار */
+.option-label {
+  display: block;
+  margin: 0.3rem 0;
+}
+
+/* مؤقت */
+.timer {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.timer.red {
+  color: red;
+}
+
+/* أزرار التنقل */
+.nav-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
